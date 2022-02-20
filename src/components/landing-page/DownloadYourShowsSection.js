@@ -4,7 +4,7 @@ import downloadIcon from "../../assets/img/download-icon.gif";
 
 const DownloadYourShowsSection = () => {
   return (
-    <div className="bg-black px-[5%] py-[50px] border border-0 border-t-[8px] border-b-[8px] border-secondary">
+    <div className="bg-black px-[5%] py-[50px] border border-0 border-t-[8px] border-secondary">
       <div className="flex items-center justify-center flex-col md:flex-row max-w-[1100px] mx-auto">
         <div className="w-full sm:w-[48%] order-1 md:order-none relative">
           <img src={mobile} alt="mobile" />
