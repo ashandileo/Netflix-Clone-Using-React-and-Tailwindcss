@@ -6,7 +6,11 @@ module.exports = {
     extend: {
       zIndex: {
         '-1': '-1',
-      }
+      },
+      borderColor: theme => ({
+        ...theme("colors"),
+        "secondary": "#222"
+      })
     },
   },
   plugins: [],
