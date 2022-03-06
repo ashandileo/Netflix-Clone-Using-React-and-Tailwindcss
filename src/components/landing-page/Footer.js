@@ -13,8 +13,9 @@ const Footer = () => {
         </p>
 
         <div className="flex flex-wrap text-gray-400 mt-[24px]">
-          { footerLinks.map(link =>
+          { footerLinks.map((link, index) =>
             <a
+              key={index}
               className="w-[50%] md:w-[33.33%] lg:w-[25%] block mb-[16px] text-[13px] hover:underline"
               href="#"
             >
