@@ -3,8 +3,8 @@
     "id": 1,
     "title": "Enjoy on your TV.",
     "subTitle": "Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.",
-    "image": "/images/tv.png",
-    "alt": "Enjoy on your TV."
+    "image": "/images/home-tv.jpg",
+    "alt": "Home TV"
   },
   {
     "id": 2,
@@ -17,14 +17,14 @@
     "id": 3,
     "title": "Watch everywhere.",
     "subTitle": "Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.",
-    "image": "/images/device-pile-id.png",
-    "alt": ""
+    "image": "/images/home-imac.jpg",
+    "alt": "Home Imac"
   },
   {
     "id": 4,
     "title": "Create profiles for kids.",
     "subTitle": "Send kids on adventures with their favorite characters in a space made just for them—free with your membership.",
     "image": "/images/profile-kids.png",
-    "alt": ""
+    "alt": "Profile Kids"
   }
 ]
