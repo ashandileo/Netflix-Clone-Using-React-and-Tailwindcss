@@ -27,7 +27,7 @@ const Contents = () => {
                         <p className="text-[12px] text-blue-500">Downloading...</p>
                       </div>
                     </div>
-                    <img src="images/downloadIcon.gif" alt="downloadIcon" className="w-[48px] h-[48px]" />
+                    <img src="images/download-icon.gif" alt="downloadIcon" className="w-[48px] h-[48px]" />
                   </div>
                 </Jumbotron.Image>
               : <Jumbotron.Image src={item.image} alt={item.alt} />
