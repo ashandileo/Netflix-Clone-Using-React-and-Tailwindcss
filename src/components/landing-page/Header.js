@@ -1,11 +1,9 @@
-import logo from "./../../assets/img/logo.svg";
-
 const Header = () => {
   return (
     <header className="px-[5%] py-[24px] max-w-[1920px] mx-auto">
       <div className="flex items-center justify-between">
         <img
-          src={logo}
+          src="images/logo.svg"
           className="w-auto h-8 sm:h-10"
           alt="Logo"
         />

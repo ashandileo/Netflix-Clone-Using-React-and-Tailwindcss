@@ -1,11 +1,9 @@
-import Background from "../../assets/img/banner.jpeg";
-
 const Banner = () => {
   return (
     <div className="relative mt-[-88px] h-[80vh] sm:h-[86vh]">
       <div
         className="text-center px-[5%] text-white flex flex-col items-center justify-center w-full absolute h-full top-[0px] -z-1 bg-cover"
-        style={{ backgroundImage: `url(${Background})` }}
+        style={{ backgroundImage: `url(/images/banner.jpeg)` }}
       >
         <h1 className="text-3xl sm:text-6xl font-bold max-w-[620px]">Unlimited movies, TV shows, and more.</h1>
         <h2 className="text-[18px] sm:text-2xl font-normal mt-[16px]">Watch anywhere. Cancel anytime.</h2>

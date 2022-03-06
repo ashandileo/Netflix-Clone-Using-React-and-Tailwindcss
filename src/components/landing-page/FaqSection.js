@@ -1,10 +1,12 @@
 import Accordion from "../shared/Accordion";
 import faqs from "../../fixtures/faqs.json";
 import NewlineText from "../shared/NewlineText";
+import Divider from "../shared/Divider";
 
 const FaqSection = () => {
-  return (
-    <div className="bg-black px-[5%] py-[50px] border border-0 border-t-[8px] border-secondary">
+  return <>
+    <Divider />
+    <div className="bg-black px-[5%] py-[50px]">
       <h1 className="text-[26px] sm:text-[40px] md:text-[50px] font-bold mb-[8px] text-white text-center mb-[24px]">
         Frequently Asked Questions
       </h1>
@@ -22,7 +24,7 @@ const FaqSection = () => {
         )}
       </Accordion>
     </div>
-  )
+  </>
 }
 
 export default FaqSection;
